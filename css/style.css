@@ -15,10 +15,7 @@
 .barra {
   margin-left: 10px;
 }
-header {
-  display: flex;
-  flex-direction: row;
-}
+
 main {
   display: flex;
   flex-direction: row;
@@ -72,7 +69,6 @@ li {
   margin-top: 30px;
 }
 section h2 {
-  margin-top: 70px;
   color: blanchedalmond;
   text-align: center;
   text-decoration: underline;

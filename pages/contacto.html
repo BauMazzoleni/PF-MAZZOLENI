@@ -15,9 +15,71 @@
     <!-- LINK CSS -->
     <link rel="stylesheet" href="../css/style.css" />
   </head>
+
   <body>
+    <nav class="navbar bgPrincipal letra">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logo-verde.png" alt="logo-verde" class="logo" />
+          <h1 class="letra">WINDSOUL</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link letra" href="../index.html">INICIO</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle letra"
+                href="clases.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                CLASES
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="clases.html">Kitesurf</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="clases.html">Wingfoil</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="clases.html"
+                    >Stand-up Paddle</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="contacto.html">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="nosotros.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letra" href="productos.html">PRODUCTOS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="container-fluid bgPrincipal no-margin">
-      <header>
+      <!-- <header>
         <div>
           <img class="logo" src="../img/logo-verde.png" alt="logo-verde" />
           <h1 class="letra">WINDSOUL</h1>
@@ -31,7 +93,7 @@
             <li class="barra"><a href="contacto.html">CONTACTO</a></li>
           </ul>
         </nav>
-      </header>
+      </header> -->
       <section>
         <h2>Contactate con nosotros</h2>
         <form action="#">
