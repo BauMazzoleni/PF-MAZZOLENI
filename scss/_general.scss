@@ -1,0 +1,75 @@
+.no-margin {
+  margin: 0;
+}
+.bgPrincipal {
+  background-image: url(../img/salto.jpg);
+  max-width: auto;
+}
+.letra {
+  font-size: $f-letra;
+  color: $color-letra;
+}
+.home {
+  margin-left: 70px;
+}
+.barra {
+  margin-left: 10px;
+}
+main {
+  display: $flex;
+  flex-direction: $fila;
+  justify-content: $separado;
+}
+ul {
+  display: $flex;
+  flex-direction: $fila;
+  list-style-type: none;
+  margin-left: $f-letra;
+}
+a {
+  text-decoration: none;
+  font-size: $f-letra;
+  color: $color-letra;
+}
+li {
+  padding: 20px;
+  margin: 10px 50px;
+}
+.logo {
+  height: 150px;
+  display: $flex;
+  flex-direction: $fila;
+}
+.titulo {
+  text-align: $centrado;
+  margin-bottom: 30px;
+}
+
+.d-block {
+  height: 400px;
+  width: auto;
+  margin-top: 30px;
+}
+section h2 {
+  color: $color-letra;
+  text-align: $centrado;
+  text-decoration: underline;
+}
+h4 {
+  margin-top: 60px;
+  text-align: $centrado;
+}
+div h1 {
+  margin-left: 30px;
+}
+.clases {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+table {
+  margin-top: 150px;
+}
+.parrafo {
+  color: $color-letra;
+}
