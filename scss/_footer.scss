@@ -13,15 +13,16 @@
   justify-content: $separado;
   margin-top: 70px;
 }
+@mixin redes($width, $height) {
+  width: $width;
+  height: $height;
+}
 .fb {
-  width: $rrss;
-  height: $rrss;
+  @include redes($rrss, $rrss);
 }
 .wsp {
-  width: $rrss;
-  height: $rrss;
+  @include redes($rrss, $rrss);
 }
 .ig {
-  width: $rrss;
-  height: $rrss;
+  @include redes($rrss, $rrss);
 }
